@@ -1,0 +1,13 @@
+{
+  "name": "youtube-tv-uniontv-patch",
+  "version": "0.4.0",
+  "private": true,
+  "description": "Patch experimental e específico para YouTube TV 5.30.340 ARMv7 / UnionTV",
+  "scripts": {
+    "generate": "node src/gerar-scripts.cjs",
+    "verify": "node src/verificar-blocos.cjs"
+  },
+  "dependencies": {
+    "terser": "5.44.0"
+  }
+}

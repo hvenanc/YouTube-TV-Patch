@@ -1,0 +1,2 @@
+this.__utv4=[JSON.parse,JSON.stringify,'contentPlaybackContext','isInlinePlaybackNoAd'];
+JSON.parse=function(text,reviver){if(!__utv4[4])try{document.body.style.border='8px solid red';setTimeout(function(){document.body.style.border=''},10000);__utv4[4]=1}catch(_){}return __utv4[0](text,function(key,value){if(key==='playerAds')value=false;else if(/^(adPlacements|adSlots|adBreaks)$/.test(key))value=[];return typeof reviver==='function'?reviver.call(this,key,value):value})};

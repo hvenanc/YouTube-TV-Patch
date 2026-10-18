@@ -1,0 +1,27 @@
+# Entradas e artefatos locais
+input/
+tools/
+build/
+dist/
+diagnostico/
+node_modules/
+src/cobalt-startup-patched.js
+
+# Aplicativos, bibliotecas e ferramentas compiladas
+*.apk
+*.apkm
+*.apks
+*.aab
+*.so
+*.jar
+
+# Registros, caches e credenciais de assinatura
+*.log
+*.keystore
+*.jks
+*.key
+*.pem
+*.p12
+__pycache__/
+*.pyc
+.DS_Store
