@@ -7,6 +7,13 @@ Repositório com duas variantes específicas de patch para YouTube em TVs Androi
 | [TCL](tcl/README.md) | 7.27.302, ARMv7 | TCL 50P7K, Android TV 12 / API 31 | v3: funcionamento relatado pelo usuário; cobertura detalhada de anúncios e integrações não confirmada |
 | [UnionTV](uniontv/README.md) | 5.30.340, ARMv7 | UnionTV, Android 9 / API 28 | r4: testes locais passaram; validação na TV e eficácia contra anúncios pendentes |
 
+## Downloads
+
+Os APKs estão disponíveis em [Releases do projeto](https://github.com/hvenanc/YouTube-TV-Patch/releases). Confira a variante e a compatibilidade descritas na release antes de instalar.
+
+- **TCL:** `YouTube-TV-7.27.302.apk` — funcionamento relatado na TCL 50P7K com Android TV 12.
+- **UnionTV:** `YouTube-TV-UnionTV-5.30.340-r4.apk` — experimental, com validação na TV pendente.
+
 ## Escolher e compilar
 
 - Para a TCL, siga [tcl/README.md](tcl/README.md). A variante injeta JavaScript por uma chamada JNI existente no Cobalt.
